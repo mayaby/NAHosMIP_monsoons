@@ -21,6 +21,10 @@ Some of the data from the NAHosMIP is available here: https://zenodo.org/records
 - Get_stippling_regions.ipynb : notebook to get the stippled regions for Figures 4, S4, S7, S8
 - SI_tables.ipynb : notebook for calculating the data in Tables S1, S3 and S5 (also used in Figure 3)
 
+## Workflow
 
+Please note that the above scripts do not include the workflow, and are just the "building blocks" of the analysis needed to reproduce the results. So, for example, if one wanted to reproduce Figure 3 from the main text, one would first need to regrid and process the files using commands from cdo_examples.sh, then run the first section of SI_tables.ipynb, and then run the final section of Main_plots.ipynb. 
+
+If you have any questions about the code or analysis, please contact maya.ben-yami@tum.de.
 
 
